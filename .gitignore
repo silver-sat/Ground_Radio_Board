@@ -3,6 +3,7 @@
 
 # Temporary files
 *.000
+*.asv
 *.bak
 *.bck
 *.kicad_pcb-bak
@@ -27,6 +28,8 @@ fp-info-cache
 
 # zip files
 *.zip
-
-# lock files
-*.lck
+\#auto_saved_files\#
+*.zip
+~$use Tests.docx
+doc/~$TPS2594x-Calculation Sheet V1p0 (version 1).xlsx
+.DS_Store
