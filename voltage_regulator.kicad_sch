@@ -698,16 +698,16 @@
 		(uuid "538bc9eb-d72b-420f-9812-5b9f6756cdc7")
 	)
 	(junction
-		(at 167.64 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84278b66-af06-4e31-979a-40ae2cf59bb9")
-	)
-	(junction
 		(at 165.1 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb907765-b7a0-43d5-8550-01127f5c0b27")
+	)
+	(junction
+		(at 165.1 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4e21540-f564-4974-8e65-199e7e16f726")
 	)
 	(wire
 		(pts
@@ -741,6 +741,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 93.98) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4213ed25-bdb1-4bc2-a3a0-861ca86e9aab")
+	)
+	(wire
+		(pts
 			(xy 138.43 107.95) (xy 165.1 107.95)
 		)
 		(stroke
@@ -748,6 +758,16 @@
 			(type default)
 		)
 		(uuid "58a57863-42f8-4915-8769-d750f7101aa5")
+	)
+	(wire
+		(pts
+			(xy 168.91 93.98) (xy 168.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669f2d35-1068-4011-b8a4-5cce4bd23e80")
 	)
 	(wire
 		(pts
@@ -875,7 +895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TL1963A-15DCYR"
+		(property "Datasheet" ""
 			(at 109.22 91.44 0)
 			(effects
 				(font
@@ -986,7 +1006,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 167.64 91.44 0)
+		(at 168.91 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -995,7 +1015,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d939727-9980-462f-9d95-eacb06912fac")
 		(property "Reference" "#PWR075"
-			(at 167.64 95.25 0)
+			(at 168.91 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,7 +1024,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 167.64 86.36 0)
+			(at 168.91 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +1032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 91.44 0)
+			(at 168.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 91.44 0)
+			(at 168.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,7 +1050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 167.64 91.44 0)
+			(at 168.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,7 +1089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "DNI"
 			(at 168.91 102.8699 0)
 			(effects
 				(font

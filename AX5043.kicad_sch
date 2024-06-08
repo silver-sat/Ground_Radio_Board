@@ -1179,105 +1179,6 @@
 				)
 			)
 		)
-		(symbol "SilverSat_symbols:MS353-10C_Masach_Shield_Cover"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S?"
-				(at 3.81 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MS353-10C_Masach_Shield_Cover"
-				(at 6.35 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.masach.com/media/catalog/product/file/MS355-10.pdf"
-				(at 5.08 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Masach 2-Piece EMI/RFI Shield  requires cover MS355-10C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "MS355-10C"
-				(at 6.35 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Masach"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MS353-10C_Masach_Shield_Cover_0_1"
-				(rectangle
-					(start 2.54 1.27)
-					(end 10.16 -1.27)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MS353-10C_Masach_Shield_Cover_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SilverSat_symbols:TG2016SMN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1791,12 +1692,6 @@
 		(uuid "54d5e374-e025-46c9-9bff-4cd74fadc615")
 	)
 	(junction
-		(at 55.88 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59c1c098-587c-44df-9d36-8ff19527c61c")
-	)
-	(junction
 		(at 177.8 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1891,6 +1786,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8cd9f41-1e82-4981-948e-6ddc334fb33c")
+	)
+	(no_connect
+		(at 121.92 100.33)
+		(uuid "479c36fb-123a-4c97-977d-508715ba9603")
 	)
 	(wire
 		(pts
@@ -2344,16 +2243,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 165.1) (xy 55.88 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55160586-3b73-4279-9d19-0723413a1933")
-	)
-	(wire
-		(pts
 			(xy 39.37 58.42) (xy 39.37 62.23)
 		)
 		(stroke
@@ -2551,16 +2440,6 @@
 			(type default)
 		)
 		(uuid "7c4dc445-2a0d-47c4-8614-d8f9e12bdd83")
-	)
-	(wire
-		(pts
-			(xy 76.2 175.26) (xy 76.2 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85b51a0e-f825-4748-8b1f-9f332e39f0d1")
 	)
 	(wire
 		(pts
@@ -2821,6 +2700,16 @@
 			(type default)
 		)
 		(uuid "a81b4c3a-b66b-4ff7-bb87-f977b9b9075d")
+	)
+	(wire
+		(pts
+			(xy 115.57 100.33) (xy 121.92 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8698260-732f-470f-b277-8861f25cb918")
 	)
 	(wire
 		(pts
@@ -3131,16 +3020,6 @@
 			(type default)
 		)
 		(uuid "d58c2bb1-8dd2-4da6-991c-e9cac21c4d1f")
-	)
-	(wire
-		(pts
-			(xy 76.2 165.1) (xy 55.88 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6cd8c2f-a0e3-4946-ade9-2a27c166fe2f")
 	)
 	(wire
 		(pts
@@ -6797,7 +6676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SilverSat_footprints:MS355-10_Masach_Shield"
 			(at 59.69 182.88 0)
 			(effects
 				(font
@@ -9897,91 +9776,6 @@
 			(project "SilverSat_Ground_Station"
 				(path "/46cfd089-6873-4d8b-89af-02ff30e49472/00000000-0000-0000-0000-000062351e35"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SilverSat_symbols:MS353-10C_Masach_Shield_Cover")
-		(at 76.2 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca7b8d16-b91f-4ee7-aed2-c7e8f46e2a1a")
-		(property "Reference" "S2"
-			(at 87.0712 174.4253 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MS353-10C_Masach_Shield_Cover"
-			(at 82.55 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.masach.com/media/catalog/product/file/MS355-10.pdf"
-			(at 81.28 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MS355-10C"
-			(at 87.0712 176.9622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Masach"
-			(at 92.71 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e420bbc3-a6bf-4845-b542-28bd23bd99e5")
-		)
-		(instances
-			(project "SilverSat_Ground_Station"
-				(path "/46cfd089-6873-4d8b-89af-02ff30e49472/00000000-0000-0000-0000-000062351e35"
-					(reference "S2")
 					(unit 1)
 				)
 			)

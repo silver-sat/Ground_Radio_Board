@@ -818,28 +818,10 @@
 		(uuid "041a7387-389c-4700-9614-11a36e1f86ba")
 	)
 	(junction
-		(at 140.97 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3145ad7a-586b-4d32-9e26-784103b28f74")
-	)
-	(junction
-		(at 81.28 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bc8399e-4610-4495-8c15-ca147f867728")
-	)
-	(junction
 		(at 109.22 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "773a3fa8-2729-454a-b36f-54184409bbf8")
-	)
-	(junction
-		(at 151.13 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "854bed4f-21bd-485a-a01a-3aa63b34fcc7")
 	)
 	(junction
 		(at 92.71 87.63)
@@ -883,26 +865,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 80.01) (xy 71.12 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03527b56-3d4d-4812-97d5-eaadb167c46a")
-	)
-	(wire
-		(pts
-			(xy 71.12 87.63) (xy 81.28 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07ccb45a-902d-4f2f-b165-9e2ab6b1365e")
-	)
-	(wire
-		(pts
 			(xy 81.28 87.63) (xy 92.71 87.63)
 		)
 		(stroke
@@ -930,26 +892,6 @@
 			(type default)
 		)
 		(uuid "25269c73-c557-44c8-94c8-87ad55a516e7")
-	)
-	(wire
-		(pts
-			(xy 151.13 80.01) (xy 151.13 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a280563-3110-4589-af26-e7f2ea181a54")
-	)
-	(wire
-		(pts
-			(xy 151.13 87.63) (xy 140.97 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "590976c9-b7aa-4de0-b66e-f7f4ff8fb4c9")
 	)
 	(wire
 		(pts
@@ -1032,7 +974,7 @@
 		)
 		(uuid "1010e179-9f78-44f0-8ca5-23730e983c10")
 	)
-	(hierarchical_label "Vin+"
+	(hierarchical_label "vin+"
 		(shape input)
 		(at 71.12 80.01 180)
 		(fields_autoplaced yes)
