@@ -1358,7 +1358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor:CAP_EEHZ-G16_PAN"
 			(at 82.2452 87.63 0)
 			(effects
 				(font
