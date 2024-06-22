@@ -2514,6 +2514,126 @@
 				)
 			)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5VP"
 			(power)
 			(pin_names
@@ -2774,6 +2894,12 @@
 		(uuid "393fced3-c8cd-4c6a-8daa-2f58a9679dcd")
 	)
 	(junction
+		(at 247.65 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "399510ce-364d-48c6-b8e6-1b36985d47f9")
+	)
+	(junction
 		(at 154.94 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2930,6 +3056,16 @@
 			(type default)
 		)
 		(uuid "0088d107-13d8-496c-8da6-7bbeb9d096b0")
+	)
+	(wire
+		(pts
+			(xy 247.65 132.08) (xy 309.88 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0265ba7a-8860-4357-a5c9-d33afb81c201")
 	)
 	(wire
 		(pts
@@ -4133,7 +4269,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 132.08) (xy 309.88 132.08)
+			(xy 189.23 132.08) (xy 247.65 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4603,17 +4739,6 @@
 			(justify left bottom)
 		)
 		(uuid "b433cab8-5024-49ae-be10-7a8394fe52cf")
-	)
-	(label "3V3_Protected"
-		(at 240.03 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4e81ca0-e700-4c15-96b6-e3076b5847af")
 	)
 	(label "MOSI"
 		(at 246.38 147.32 0)
@@ -5167,6 +5292,72 @@
 			(project "SilverSat_Ground_Station"
 				(path "/46cfd089-6873-4d8b-89af-02ff30e49472"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 247.65 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b5fea84-5f6b-4918-a0c4-d31055e941d8")
+		(property "Reference" "#PWR06"
+			(at 247.65 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 247.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 247.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c262cfd-87e0-4549-bd48-9ec8e0a347cf")
+		)
+		(instances
+			(project "SilverSat_Ground_Station"
+				(path "/46cfd089-6873-4d8b-89af-02ff30e49472"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
