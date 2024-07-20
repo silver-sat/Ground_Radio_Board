@@ -4423,7 +4423,7 @@
 	)
 	(text "Placeholder for silkscreen labelling"
 		(exclude_from_sim no)
-		(at 322.58 288.29 0)
+		(at 306.07 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5169,7 +5169,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
-		(at 364.49 287.02 0)
+		(at 347.98 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5178,7 +5178,7 @@
 		(fields_autoplaced yes)
 		(uuid "141976c4-c0e4-4367-ab82-5580cf59b087")
 		(property "Reference" "#LOGO1"
-			(at 364.49 280.035 0)
+			(at 347.98 243.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +5187,7 @@
 			)
 		)
 		(property "Value" "Logo_Open_Hardware_Small"
-			(at 364.49 292.735 0)
+			(at 347.98 255.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5196,7 @@
 			)
 		)
 		(property "Footprint" "SilverSat_footprints:SilverSat_logo_15x7.75mm"
-			(at 364.49 287.02 0)
+			(at 347.98 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 364.49 287.02 0)
+			(at 347.98 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5214,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 364.49 287.02 0)
+			(at 347.98 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5896,7 +5896,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3a636689-3b02-4898-b060-c842ec20ad0e")
 		(property "Reference" "#PWR09"
 			(at 113.03 33.02 0)
@@ -5907,12 +5906,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VP"
-			(at 113.03 25.6342 0)
+		(property "Value" "+5V"
+			(at 110.998 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7358,7 +7358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VP"
+		(property "Value" "+5V"
 			(at 91.44 131.0442 0)
 			(effects
 				(font
