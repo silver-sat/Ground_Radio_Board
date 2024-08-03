@@ -20662,7 +20662,6 @@
 		)
 	)
 	(footprint "Module:Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "902b2ed1-bfbc-426c-bdc1-9bfc0de42671")
 		(at 163.92 39.799 -90)
@@ -22072,6 +22071,7 @@
 			(uuid "469eff44-4037-46a1-a0d9-4518af0ef8e1")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22080,6 +22080,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/tom/Downloads/raspberry-pi-zero-w-1.snapshot.1/Raspberry PI Zero W.step"
+			(offset
+				(xyz 25.29586 8.382 12.7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
 			)
 		)
 	)
@@ -41001,7 +41012,7 @@
 			(xy 87.122 31.623) (xy 186.182 31.623)
 		)
 		(height -7.8)
-		(gr_text "99.0600 mm"
+		(gr_text "3.9000 in"
 			(at 136.652 22.673 0)
 			(layer "Dwgs.User")
 			(uuid "036b994c-c981-484d-8cd7-66e3c2aeb56a")
@@ -41034,7 +41045,7 @@
 			(xy 186.182 31.623) (xy 186.182 102.743)
 		)
 		(height -17.765)
-		(gr_text "71.1200 mm"
+		(gr_text "2.8000 in"
 			(at 202.797 67.183 90)
 			(layer "Dwgs.User")
 			(uuid "5630e523-5714-4445-89aa-21feb5be84c7")
