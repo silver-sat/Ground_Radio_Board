@@ -4628,7 +4628,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "0a38d263-25a5-458f-a20a-d663c8892802")
 			(effects
@@ -4639,7 +4639,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "87f8087f-4e4c-4fe9-887b-a52410dd0784")
 			(effects
@@ -4817,7 +4817,7 @@
 			(uuid "e3510672-fbd0-4ef7-83d8-e8f72ac7a924")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "95472a9c-6597-4d14-ba5d-f6f6c6c254e9")
 			(effects
@@ -7867,7 +7867,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(uuid "bc4a5390-9a70-4ea3-bb1e-b1a32145aaf7")
 			(effects
@@ -7878,7 +7878,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "7f4bee1e-d8b4-43d0-880b-6cb9fa6f4434")
 			(effects
@@ -8056,7 +8056,7 @@
 			(uuid "77d25b46-38c4-498d-9e10-5b77a523218c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "ae4f2f47-3603-452c-9389-9131e8d5ead6")
 			(effects
@@ -14387,15 +14387,15 @@
 			(pintype "passive")
 			(uuid "ef36ebb9-0a32-43fc-8193-fb99521f5e4e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-143_Horizontal.wrl"
+		(model "C:/Users/tom/Documents/GitHub/Radio_Board/packages3D/901-143-6RFX.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 6.35)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 -90)
 			)
 		)
 	)
@@ -24593,15 +24593,15 @@
 			(pintype "passive")
 			(uuid "53d37204-15b0-4362-844e-77dd96e6951e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-143_Horizontal.wrl"
+		(model "C:/Users/tom/Documents/GitHub/Radio_Board/packages3D/901-143-6RFX.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 6.35)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 -90)
 			)
 		)
 	)
@@ -25658,15 +25658,15 @@
 			(pintype "passive")
 			(uuid "50adafb8-ad94-4315-b188-1265900a3e48")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Molex-105017-0001.wrl"
+		(model "C:/Users/tom/Documents/GitHub/Radio_Board/packages3D/1050170001.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -1.016 1.143)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -26369,15 +26369,15 @@
 			(pintype "passive")
 			(uuid "6cbecac8-84bf-4d3a-bc17-69dac2342a72")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Molex-105017-0001.wrl"
+		(model "C:/Users/tom/Documents/GitHub/Radio_Board/packages3D/1050170001.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -1.016 1.1938)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -26830,6 +26830,17 @@
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "95efa2ac-1d86-48a5-a784-9ea819ebcc4e")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-063AH_Horizontal.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
@@ -38231,7 +38242,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(uuid "081f1958-6c02-47d6-a68d-bdecf753cf5e")
 			(effects
@@ -38242,7 +38253,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "30dcfc7d-eecc-4c75-9357-d75f4afa9b60")
 			(effects
@@ -38433,7 +38444,7 @@
 			(uuid "31f306e0-12ae-4b4c-abb7-9aa772f86887")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "c617aed7-5880-4185-98af-58a7dc2ce5b1")
 			(effects
@@ -39873,15 +39884,15 @@
 			(pintype "passive")
 			(uuid "2130d8d5-5df3-4415-8e30-5d91ecc6dcf8")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-143_Horizontal.wrl"
+		(model "C:/Users/tom/Documents/GitHub/Radio_Board/packages3D/901-143-6RFX.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 6.35)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 -90)
 			)
 		)
 	)
@@ -43562,15 +43573,6 @@
 		(uuid "85b47344-b6ef-4dd4-b452-57eb43bd7ac1")
 	)
 	(via
-		(at 146.309821 75.156)
-		(size 0.508)
-		(drill 0.254)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 35)
-		(uuid "b3e634db-01da-43a2-be19-b0abec89a581")
-	)
-	(via
 		(at 94.107 38.896)
 		(size 0.508)
 		(drill 0.254)
@@ -43585,24 +43587,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 35)
 		(uuid "badb909a-c049-41ff-9402-c5af2897170e")
-	)
-	(via
-		(at 146.309821 77.188)
-		(size 0.508)
-		(drill 0.254)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 35)
-		(uuid "cf102e5e-d894-4625-bb1b-4e72df4e3f79")
-	)
-	(via
-		(at 144.023821 75.156)
-		(size 0.508)
-		(drill 0.254)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 35)
-		(uuid "d211fd52-713e-46fe-a90a-547d5e46fcab")
 	)
 	(via
 		(at 137.456199 90.1675)
@@ -43627,15 +43611,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 35)
 		(uuid "e6a6c39b-d77e-4757-badb-f21c2c31eeb0")
-	)
-	(via
-		(at 144.023821 77.188)
-		(size 0.508)
-		(drill 0.254)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 35)
-		(uuid "fed95fff-04c9-4df1-b07e-07099f776f50")
 	)
 	(segment
 		(start 94.107 45.246)
@@ -48462,6 +48437,15 @@
 		(uuid "b1625f78-298d-4f70-98e1-a50c67520b01")
 	)
 	(via
+		(at 146.309821 75.156)
+		(size 0.508)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 145)
+		(uuid "b3e634db-01da-43a2-be19-b0abec89a581")
+	)
+	(via
 		(at 171.958 79.375)
 		(size 0.508)
 		(drill 0.254)
@@ -48598,6 +48582,15 @@
 		(uuid "cd1474f0-228e-4f7d-902d-e99e33b5b3d3")
 	)
 	(via
+		(at 146.309821 77.188)
+		(size 0.508)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 145)
+		(uuid "cf102e5e-d894-4625-bb1b-4e72df4e3f79")
+	)
+	(via
 		(at 159.766 85.471)
 		(size 0.508)
 		(drill 0.254)
@@ -48612,6 +48605,15 @@
 		(layers "F.Cu" "B.Cu")
 		(net 145)
 		(uuid "d0c2e71a-d31e-426e-bd56-e6a9278e1d4b")
+	)
+	(via
+		(at 144.023821 75.156)
+		(size 0.508)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 145)
+		(uuid "d211fd52-713e-46fe-a90a-547d5e46fcab")
 	)
 	(via
 		(at 161.29 67.183)
@@ -48812,6 +48814,15 @@
 		(layers "F.Cu" "B.Cu")
 		(net 145)
 		(uuid "fe64a0a1-d707-4301-b6f2-748b340173ec")
+	)
+	(via
+		(at 144.023821 77.188)
+		(size 0.508)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 145)
+		(uuid "fed95fff-04c9-4df1-b07e-07099f776f50")
 	)
 	(via
 		(at 115.988699 95.631)
