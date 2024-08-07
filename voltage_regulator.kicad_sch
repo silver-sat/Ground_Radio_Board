@@ -885,7 +885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:DCQ0006A_M"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 			(at 109.22 91.44 0)
 			(effects
 				(font
@@ -906,6 +906,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL1963A-15DCYR"
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
 			(at 109.22 91.44 0)
 			(effects
 				(font

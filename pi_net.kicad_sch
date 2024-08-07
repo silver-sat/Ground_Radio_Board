@@ -360,7 +360,7 @@
 		)
 		(uuid "5482bb23-c3d3-4d3f-846f-373269e39c70")
 	)
-	(hierarchical_label "VOUT"
+	(hierarchical_label "ATN_IN"
 		(shape output)
 		(at 55.88 53.34 180)
 		(fields_autoplaced yes)
@@ -372,7 +372,7 @@
 		)
 		(uuid "b62d5545-5e4d-46fd-b583-1a1e5bc1b2ca")
 	)
-	(hierarchical_label "RX"
+	(hierarchical_label "ATN_OUT"
 		(shape input)
 		(at 71.12 53.34 0)
 		(fields_autoplaced yes)
