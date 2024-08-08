@@ -1362,6 +1362,26 @@
 		)
 		(uuid "fe229def-623c-4a9d-a5d6-74153a0a17dc")
 	)
+	(text "One of R33, R34 is a DNI.  \nDepends on Outside switch"
+		(exclude_from_sim no)
+		(at 164.592 58.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "26e1e48f-fe90-49aa-a683-f94683dc8400")
+	)
+	(text "Not all of the drivers are needed.\nDNI as needed."
+		(exclude_from_sim no)
+		(at 230.632 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8e8926e-0f5c-4389-9bc7-3e68d7ab0e1e")
+	)
 	(hierarchical_label "TX{slash}~{RX}"
 		(shape input)
 		(at 168.91 67.31 180)

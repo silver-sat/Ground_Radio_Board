@@ -77,7 +77,7 @@
         "extra_footprint": "error",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -128,8 +128,8 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_height": 0.762,
+        "min_text_thickness": 0.1016,
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.127,
@@ -732,12 +732,12 @@
       "USB to RS232"
     ],
     [
-      "df262307-c089-4825-93f8-9997c727d1e9",
-      "Power_Supply"
-    ],
-    [
       "ebe9cd21-3bc1-4d4f-a2de-8a76cec16466",
       "RPI"
+    ],
+    [
+      "df262307-c089-4825-93f8-9997c727d1e9",
+      "Power_Supply"
     ],
     [
       "cbad5a72-a35a-43f2-b9dc-85eb1f7cd3b0",

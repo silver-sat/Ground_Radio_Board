@@ -1809,12 +1809,6 @@
 		(uuid "83efd58b-8fd4-47de-b80a-1f96a4c28213")
 	)
 	(junction
-		(at 67.31 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d79ed7e-be8a-4d64-9d15-9a39143649cb")
-	)
-	(junction
 		(at 101.6 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1855,6 +1849,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca8574c4-d714-45df-9ca9-fccc311f3747")
+	)
+	(junction
+		(at 67.31 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7d04627-4516-4c10-a5a5-1e42bbf20c63")
 	)
 	(junction
 		(at 60.96 41.91)
@@ -2015,16 +2015,6 @@
 			(type default)
 		)
 		(uuid "18a0662f-3959-4397-bdfe-63a2aa836ca4")
-	)
-	(wire
-		(pts
-			(xy 59.69 102.87) (xy 67.31 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b2d410-e957-4bc9-b9f1-cc5d4603bd78")
 	)
 	(polyline
 		(pts
@@ -2238,7 +2228,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 102.87) (xy 88.9 102.87)
+			(xy 59.69 102.87) (xy 67.31 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2595,6 +2585,16 @@
 			(type default)
 		)
 		(uuid "8afbd649-5561-491b-a6d2-42edc58da06c")
+	)
+	(wire
+		(pts
+			(xy 67.31 102.87) (xy 88.9 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2ccf28-2419-4a38-a954-ec98a5cacddf")
 	)
 	(wire
 		(pts
@@ -4183,6 +4183,148 @@
 			(project "SilverSat_Ground_Station"
 				(path "/46cfd089-6873-4d8b-89af-02ff30e49472/00000000-0000-0000-0000-000062351e35"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 67.31 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23f3253d-909f-4100-817b-75f9c876b944")
+		(property "Reference" "C15"
+			(at 70.231 105.8453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39p"
+			(at 70.231 108.3822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 68.2752 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/Datasheets/KyoceraAVX_AutoMLCC.pdf"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRT1555C1H390FA02D"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "AVX"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "06035A390J4T2A"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-06035A390J4T2A"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Kyocera-AVX/06035A390J4T2A?qs=Q0wCMCRSJ1tE5NmRvt3L5Q%3D%3D"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Number" "06035A390J4T2A"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbd7ee74-c3dd-464e-a206-2b27c6e13b04")
+		)
+		(pin "2"
+			(uuid "36cfe8fa-2bab-4e22-b1be-467fef0cbfc5")
+		)
+		(instances
+			(project "SilverSat_Ground_Station"
+				(path "/46cfd089-6873-4d8b-89af-02ff30e49472/00000000-0000-0000-0000-000062351e35"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8020,148 +8162,6 @@
 			(project "SilverSat_Ground_Station"
 				(path "/46cfd089-6873-4d8b-89af-02ff30e49472/00000000-0000-0000-0000-000062351e35"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 67.31 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ae74a5a-35b8-41d1-b0bc-b0c268d80282")
-		(property "Reference" "C15"
-			(at 70.231 105.8453 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "39p"
-			(at 70.231 108.3822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 68.2752 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${KIPRJMOD}/Datasheets/KyoceraAVX_AutoMLCC.pdf"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.5pF±5% MLCC C0G 50V"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "06035A390J4T2A"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AVX"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "AVX"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "06035A390J4T2A"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-06035A390J4T2A"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Kyocera-AVX/06035A390J4T2A?qs=Q0wCMCRSJ1tE5NmRvt3L5Q%3D%3D"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" "06035A390J4T2A"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11e176fb-bc04-4140-8925-a3615d5cfe8b")
-		)
-		(pin "2"
-			(uuid "728798fa-9d6f-4377-acf9-c914beeba9dd")
-		)
-		(instances
-			(project "SilverSat_Ground_Station"
-				(path "/46cfd089-6873-4d8b-89af-02ff30e49472/00000000-0000-0000-0000-000062351e35"
-					(reference "C15")
 					(unit 1)
 				)
 			)

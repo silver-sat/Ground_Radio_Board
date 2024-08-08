@@ -1406,6 +1406,16 @@
 		)
 		(uuid "fb3c33f8-7911-47d5-ade2-5780ab7617ec")
 	)
+	(text "Manufacturer recommended input filter\nfor EMI compliance."
+		(exclude_from_sim no)
+		(at 124.714 112.522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86c383c0-88f6-42ae-9f8c-eb5977db832e")
+	)
 	(hierarchical_label "vin-"
 		(shape input)
 		(at 92.71 100.33 180)
