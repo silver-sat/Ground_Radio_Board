@@ -2509,6 +2509,12 @@
 		(uuid "638f25d2-c0f3-4b26-98c2-56361c19f1f1")
 	)
 	(junction
+		(at 163.83 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69d531c2-ec3f-4273-95e3-9b1f874d4d1b")
+	)
+	(junction
 		(at 213.36 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2818,6 +2824,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 173.99) (xy 154.94 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a998533-137c-440b-ba10-bed05729edbe")
+	)
+	(wire
+		(pts
 			(xy 165.1 156.21) (xy 167.64 156.21)
 		)
 		(stroke
@@ -3035,6 +3051,16 @@
 			(type default)
 		)
 		(uuid "7174babe-609e-414a-875a-5d616c24c193")
+	)
+	(wire
+		(pts
+			(xy 162.56 171.45) (xy 163.83 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b28d23-dfa5-4e83-9859-5c3bd9fd32f0")
 	)
 	(wire
 		(pts
@@ -3548,13 +3574,23 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 173.99) (xy 154.94 173.99)
+			(xy 187.96 173.99) (xy 163.83 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d6f765a2-2ead-4621-a4c7-3acd2c1eb920")
+	)
+	(wire
+		(pts
+			(xy 163.83 171.45) (xy 163.83 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d73daf-85b9-4f17-9134-9de5f29e9223")
 	)
 	(wire
 		(pts
@@ -4587,6 +4623,18 @@
 			(justify right bottom)
 		)
 		(uuid "f804aac1-6cc3-478d-83f2-61dd53f87d06")
+	)
+	(hierarchical_label "TXLED"
+		(shape input)
+		(at 162.56 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09b6d561-0583-4784-94ae-5bdb99467642")
 	)
 	(hierarchical_label "SCK"
 		(shape output)

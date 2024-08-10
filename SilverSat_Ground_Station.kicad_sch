@@ -3858,6 +3858,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 102.87) (xy 195.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39440dcd-9365-4d63-adee-2778847b6b91")
+	)
+	(wire
+		(pts
 			(xy 99.06 85.09) (xy 99.06 81.28)
 		)
 		(stroke
@@ -3988,16 +3998,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 105.41) (xy 195.58 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "426f79d2-113f-4d23-a169-f2e52702d843")
-	)
-	(wire
-		(pts
 			(xy 175.26 179.07) (xy 194.31 179.07)
 		)
 		(stroke
@@ -4078,16 +4078,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 113.03) (xy 193.04 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50a34d88-2aaa-4f68-9aa0-1f15251dc143")
-	)
-	(wire
-		(pts
 			(xy 240.03 208.28) (xy 246.38 208.28)
 		)
 		(stroke
@@ -4165,6 +4155,16 @@
 			(type default)
 		)
 		(uuid "57fc9d9f-ce79-4b4d-9fd7-b0d41996b823")
+	)
+	(wire
+		(pts
+			(xy 203.2 110.49) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0edfcb-c9fd-442d-8179-16163732192e")
 	)
 	(wire
 		(pts
@@ -4258,16 +4258,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 110.49) (xy 193.04 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6677a352-0e81-4b40-93d1-8ba20b3fe5a8")
-	)
-	(wire
-		(pts
 			(xy 227.33 110.49) (xy 227.33 113.03)
 		)
 		(stroke
@@ -4358,6 +4348,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 102.87) (xy 195.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f084198-124b-4986-be3d-1d23bc7712fd")
+	)
+	(wire
+		(pts
 			(xy 39.37 120.65) (xy 39.37 116.84)
 		)
 		(stroke
@@ -4415,16 +4415,6 @@
 			(type default)
 		)
 		(uuid "7a792c81-53cc-4458-9f60-a85322e0c678")
-	)
-	(wire
-		(pts
-			(xy 195.58 105.41) (xy 195.58 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aea831b-fd03-48eb-bd4a-dde915c43b81")
 	)
 	(wire
 		(pts
@@ -4535,6 +4525,16 @@
 			(type default)
 		)
 		(uuid "a06bb69b-1d05-4ceb-9e20-7c8a8f4ddc5f")
+	)
+	(wire
+		(pts
+			(xy 203.2 113.03) (xy 195.58 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09ea83f-c6d9-4a4d-a4d7-e99fad6d334d")
 	)
 	(wire
 		(pts
@@ -4798,6 +4798,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 107.95) (xy 193.04 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3f9c24-5086-4028-b824-8f92b9195770")
+	)
+	(wire
+		(pts
 			(xy 109.22 156.21) (xy 109.22 158.75)
 		)
 		(stroke
@@ -4805,6 +4815,16 @@
 			(type default)
 		)
 		(uuid "cf4ce25f-b82c-4342-b7f0-c0d9aef98a31")
+	)
+	(wire
+		(pts
+			(xy 193.04 105.41) (xy 203.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc15d00-4eec-4d83-9c82-03140ab57d02")
 	)
 	(wire
 		(pts
@@ -4905,6 +4925,16 @@
 			(type default)
 		)
 		(uuid "df3d1208-2c4a-42ea-ba4e-29926d63f5d6")
+	)
+	(wire
+		(pts
+			(xy 240.03 195.58) (xy 247.65 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d41e62-37e3-41ee-afcf-a1155aadb185")
 	)
 	(wire
 		(pts
@@ -5146,7 +5176,7 @@
 		(uuid "0d8d8f3c-b8e6-4e11-bc3e-9de80febc89a")
 	)
 	(label "Extra1"
-		(at 193.04 113.03 0)
+		(at 193.04 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5154,7 +5184,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2204a18e-01db-42ce-ae7c-b9f2d36227a7")
+		(uuid "1102042d-cae2-43fe-942d-deb6c8805165")
 	)
 	(label "SYSCLK"
 		(at 250.19 177.8 0)
@@ -5233,6 +5263,17 @@
 		)
 		(uuid "50c56afb-7713-49a8-b8d7-cf03120d54f7")
 	)
+	(label "TXLED"
+		(at 247.65 195.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53d3609d-4f39-429d-9798-ddefaf92a5ed")
+	)
 	(label "TXD1"
 		(at 157.48 193.04 180)
 		(fields_autoplaced yes)
@@ -5254,6 +5295,17 @@
 			(justify left bottom)
 		)
 		(uuid "65daa9bc-dd37-451f-a0b1-7d57adf4d0f2")
+	)
+	(label "TXLED"
+		(at 195.58 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68f798c7-41dc-4960-9e65-c0af09da5f99")
 	)
 	(label "USB_D-"
 		(at 74.93 96.52 180)
@@ -5332,6 +5384,17 @@
 		)
 		(uuid "8be5cc33-2471-401e-b4e3-f1fb834bd489")
 	)
+	(label "PWRAMP"
+		(at 193.04 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e3a162a-a48a-42b5-ac39-f8d7c555b82b")
+	)
 	(label "USB0_D-"
 		(at 74.93 160.02 180)
 		(fields_autoplaced yes)
@@ -5376,6 +5439,17 @@
 		)
 		(uuid "953496d9-e3e4-41ac-8372-db9162772e54")
 	)
+	(label "Extra0"
+		(at 193.04 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a42457d4-0152-467f-991e-98ce54b4099c")
+	)
 	(label "DCLK"
 		(at 246.38 162.56 0)
 		(fields_autoplaced yes)
@@ -5386,17 +5460,6 @@
 			(justify left bottom)
 		)
 		(uuid "ade032be-8002-47bb-b5df-7ed333ad180a")
-	)
-	(label "Extra0"
-		(at 193.04 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0b55efa-c372-47d6-a9a1-7b6db60f095e")
 	)
 	(label "~{TX}{slash}RX"
 		(at 349.25 83.82 180)
@@ -5487,7 +5550,7 @@
 		(uuid "d5f004db-c0a1-4824-b7fe-be536f214fff")
 	)
 	(label "Extra1"
-		(at 246.38 184.15 270)
+		(at 246.38 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6132,72 +6195,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 195.58 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2314e1e6-358c-46d3-972e-57f43550bef9")
-		(property "Reference" "#PWR014"
-			(at 195.58 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 195.58 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 195.58 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "052e01f2-c68b-4103-89d3-b5649bef6036")
-		)
-		(instances
-			(project "SilverSat_Ground_Station"
-				(path "/46cfd089-6873-4d8b-89af-02ff30e49472"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 99.06 172.72 0)
 		(unit 1)
@@ -6575,6 +6572,72 @@
 			(project "SilverSat_Ground_Station"
 				(path "/46cfd089-6873-4d8b-89af-02ff30e49472"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 195.58 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b3ff904-89b5-414f-9730-7c7b953bb530")
+		(property "Reference" "#PWR014"
+			(at 195.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 195.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 195.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46469593-a936-49da-84b4-8fa8215ad43d")
+		)
+		(instances
+			(project "SilverSat_Ground_Station"
+				(path "/46cfd089-6873-4d8b-89af-02ff30e49472"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8838,6 +8901,16 @@
 				(justify right)
 			)
 			(uuid "50b7cd08-678c-4778-adff-f77217d89ee1")
+		)
+		(pin "TXLED" input
+			(at 240.03 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7ac42492-1759-4ee1-b1b9-e6f480fd9b21")
 		)
 		(instances
 			(project "SilverSat_Ground_Station"
