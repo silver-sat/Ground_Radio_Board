@@ -4744,6 +4744,18 @@
 		)
 		(uuid "87287dc0-5b4f-46e6-acdd-43102f4dd2cc")
 	)
+	(hierarchical_label "Extra0"
+		(shape input)
+		(at 139.7 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c7aa486-cb29-4cc3-a1bd-97bf19400d9e")
+	)
 	(hierarchical_label "GPIO11"
 		(shape bidirectional)
 		(at 250.19 161.29 0)
@@ -4911,6 +4923,18 @@
 			(justify right)
 		)
 		(uuid "ef9f9e76-ab8a-4d33-b16f-4b727288120d")
+	)
+	(hierarchical_label "Extra1"
+		(shape input)
+		(at 139.7 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f30c476f-89f3-4774-95a5-1ebc6e14a213")
 	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
