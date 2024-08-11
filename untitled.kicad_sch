@@ -1495,6 +1495,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MLAST168BB5106MTNA01 "
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAIYO YUDEN "
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6ed3058-360a-4c73-8113-1db70bb2927b")
 		)
@@ -1921,6 +1939,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CM105X5R226M16AT "
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" " KYOCERA AVX "
 			(at 177.8 96.52 0)
 			(effects
 				(font

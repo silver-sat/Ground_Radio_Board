@@ -2524,6 +2524,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MI0603K300R-10"
+			(at 148.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird"
+			(at 148.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cae1fef-19c5-485f-8a23-fc6ad9ffabd7")
 		)
@@ -2586,6 +2604,24 @@
 			)
 		)
 		(property "Description" "USB to Serial Interface, SSOP-28"
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DS_FT232R"
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FTDI"
 			(at 146.05 97.79 0)
 			(effects
 				(font
