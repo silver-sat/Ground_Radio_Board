@@ -5164,17 +5164,6 @@
 		)
 		(uuid "0c5479c9-4b0f-4d89-974a-3b590d62aa10")
 	)
-	(label "TXD0"
-		(at 125.73 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d8d8f3c-b8e6-4e11-bc3e-9de80febc89a")
-	)
 	(label "Extra1"
 		(at 193.04 110.49 0)
 		(fields_autoplaced yes)
@@ -5185,6 +5174,17 @@
 			(justify left bottom)
 		)
 		(uuid "1102042d-cae2-43fe-942d-deb6c8805165")
+	)
+	(label "TXD0"
+		(at 125.73 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1671a298-f226-481c-b89b-99ed1ec43f14")
 	)
 	(label "SYSCLK"
 		(at 250.19 177.8 0)
@@ -5274,17 +5274,6 @@
 		)
 		(uuid "53d3609d-4f39-429d-9798-ddefaf92a5ed")
 	)
-	(label "TXD1"
-		(at 157.48 193.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e885760-98dd-40a0-9cc6-6506ec8f5bf5")
-	)
 	(label "MISO"
 		(at 246.38 149.86 0)
 		(fields_autoplaced yes)
@@ -5318,6 +5307,17 @@
 		)
 		(uuid "6eef9c23-a883-4ccc-972c-a2adc2ccdee8")
 	)
+	(label "TXD1"
+		(at 157.48 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "705c3bc7-7935-459b-8a59-c8c7cba0f6fc")
+	)
 	(label "TX{slash}~{RX}"
 		(at 349.25 81.28 180)
 		(fields_autoplaced yes)
@@ -5339,17 +5339,6 @@
 			(justify left bottom)
 		)
 		(uuid "8969fa40-41f8-49d8-8448-85f6cf8a2006")
-	)
-	(label "RXD1"
-		(at 157.48 190.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "897d2fec-f22f-4776-bddc-309531e413be")
 	)
 	(label "~{TX}{slash}RX"
 		(at 175.26 181.61 0)
@@ -5538,6 +5527,17 @@
 		)
 		(uuid "d289b769-f011-488e-80a8-c6bc912fa32c")
 	)
+	(label "RXD1"
+		(at 157.48 193.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3e12c72-04e8-48bb-b077-7485d934e6a9")
+	)
 	(label "USB0_D+"
 		(at 121.92 154.94 0)
 		(fields_autoplaced yes)
@@ -5549,6 +5549,17 @@
 		)
 		(uuid "d5f004db-c0a1-4824-b7fe-be536f214fff")
 	)
+	(label "RXD0"
+		(at 125.73 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d691d200-fa9a-4b13-a74c-977890eed4e9")
+	)
 	(label "Extra1"
 		(at 246.38 184.15 180)
 		(fields_autoplaced yes)
@@ -5559,17 +5570,6 @@
 			(justify right bottom)
 		)
 		(uuid "e10da47e-38f5-41e9-b1cf-1870ea2aaa94")
-	)
-	(label "RXD0"
-		(at 125.73 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6451b9e-e9c6-4914-a752-80b7ecebe3e8")
 	)
 	(label "USB_D+"
 		(at 248.92 167.64 180)

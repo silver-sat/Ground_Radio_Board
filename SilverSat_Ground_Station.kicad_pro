@@ -653,6 +653,12 @@
           "label": "STANDARD",
           "name": "STANDARD",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field7",
+          "name": "Field7",
+          "show": false
         }
       ],
       "filter_string": "",
