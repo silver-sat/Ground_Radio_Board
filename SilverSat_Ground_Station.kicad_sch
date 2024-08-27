@@ -4301,6 +4301,25 @@
 		)
 		(uuid "ffc690bf-7977-431e-baf0-e5596337244c")
 	)
+	(text_box "Crossover added to RXD0/TXD0 and RXD1/TXD1 "
+		(exclude_from_sim no)
+		(at 160.02 156.21 0)
+		(size 17.78 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7ed4ceb9-90ee-4331-8fff-9fbde23db316")
+	)
 	(text "See Figure 15 in AX5043 Datasheet"
 		(exclude_from_sim no)
 		(at 341.63 173.99 0)
@@ -4400,6 +4419,17 @@
 		)
 		(uuid "0d8d8f3c-b8e6-4e11-bc3e-9de80febc89a")
 	)
+	(label "TXD1"
+		(at 187.96 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ef64e2b-763f-437a-a582-c04a4e0da256")
+	)
 	(label "SYSCLK"
 		(at 250.19 177.8 0)
 		(fields_autoplaced yes)
@@ -4410,6 +4440,17 @@
 			(justify left bottom)
 		)
 		(uuid "3171fe3f-4895-44e6-af54-c9611ed456f1")
+	)
+	(label "RXD0"
+		(at 187.96 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3262f866-9f18-4b57-9288-fba152a87cf6")
 	)
 	(label "IRQ"
 		(at 246.38 157.48 0)
@@ -4521,6 +4562,17 @@
 		)
 		(uuid "71209fdc-ea62-4e29-a491-cde17421d81a")
 	)
+	(label "TXD0"
+		(at 187.96 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73c1a618-7296-4af9-b390-a23bfbf56289")
+	)
 	(label "SYSCLK"
 		(at 175.26 201.93 0)
 		(fields_autoplaced yes)
@@ -4587,17 +4639,6 @@
 		)
 		(uuid "8e3fd401-d742-4a7c-9f9c-7bd13053c101")
 	)
-	(label "RXD0"
-		(at 187.96 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9530ac81-46ab-4f46-b5b1-1e87baacb8ae")
-	)
 	(label "PWRAMP"
 		(at 327.66 160.02 180)
 		(fields_autoplaced yes)
@@ -4630,28 +4671,6 @@
 			(justify right bottom)
 		)
 		(uuid "b2a0093d-ef05-4e0c-ac96-56afd9750d5b")
-	)
-	(label "RXD1"
-		(at 187.96 161.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3ab8e40-503b-45f4-ab01-a44f5979161d")
-	)
-	(label "TXD0"
-		(at 187.96 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b433cab8-5024-49ae-be10-7a8394fe52cf")
 	)
 	(label "MOSI"
 		(at 246.38 147.32 0)
@@ -4730,7 +4749,7 @@
 		)
 		(uuid "e824147a-2a35-4b1d-ade2-7882b794f09d")
 	)
-	(label "TXD1"
+	(label "RXD1"
 		(at 187.96 158.75 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4739,7 +4758,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "eb8adab2-2ff6-405d-baa7-4d0b6196bbd3")
+		(uuid "eb783196-bdaa-486d-925e-069f644951cf")
 	)
 	(label "DATA"
 		(at 175.26 194.31 0)

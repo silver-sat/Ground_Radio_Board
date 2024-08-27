@@ -1426,6 +1426,12 @@
 		(uuid "35ba80a8-22dd-4794-b878-23b8ed4cff1f")
 	)
 	(junction
+		(at 124.46 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "410aa1d3-b15a-4bfa-bec9-3e670aadcf70")
+	)
+	(junction
 		(at 189.23 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1436,12 +1442,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76b3df1d-bda1-4a6f-bb5e-0a20646569cb")
-	)
-	(junction
-		(at 148.59 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7eba11b7-0f21-4e8a-9922-5ccdbb3ab270")
 	)
 	(junction
 		(at 148.59 63.5)
@@ -1615,7 +1615,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 67.31) (xy 148.59 69.85)
+			(xy 148.59 67.31) (xy 148.59 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1775,16 +1775,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 72.39) (xy 148.59 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fbc2872-0d4e-49ce-8310-a43e9aeb8ee9")
-	)
-	(wire
-		(pts
 			(xy 143.51 69.85) (xy 143.51 72.39)
 		)
 		(stroke
@@ -1795,6 +1785,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 69.85) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a0a1763-8aab-4f73-b64c-fb9fe437b4c7")
+	)
+	(wire
+		(pts
 			(xy 189.23 54.61) (xy 189.23 59.69)
 		)
 		(stroke
@@ -1802,6 +1802,16 @@
 			(type default)
 		)
 		(uuid "8b0ce4bf-c690-41de-8cdc-0897c00ccca7")
+	)
+	(wire
+		(pts
+			(xy 124.46 69.85) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0bb783-e34d-4c4e-8791-33cc0e7a91d2")
 	)
 	(wire
 		(pts
@@ -1965,16 +1975,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 69.85) (xy 143.51 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4da282e-84ed-49fd-9b48-a2fe6480b6e3")
-	)
-	(wire
-		(pts
 			(xy 146.05 127) (xy 148.59 127)
 		)
 		(stroke
@@ -2045,6 +2045,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 80.01) (xy 125.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4f93ba-cf09-47ed-9d70-f7d176c4ebc1")
+	)
+	(wire
+		(pts
 			(xy 114.3 90.17) (xy 125.73 90.17)
 		)
 		(stroke
@@ -2055,13 +2065,32 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 80.01) (xy 125.73 80.01)
+			(xy 114.3 80.01) (xy 124.46 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fff8a5f9-6340-4ecf-bed9-6b445c693596")
+	)
+	(text_box "VCCIO tied to 3V3OUT for SAMD compatibility"
+		(exclude_from_sim no)
+		(at 113.03 55.88 0)
+		(size 24.13 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c19eb261-9520-4752-91f8-36f7bf01e961")
 	)
 	(label "VCC"
 		(at 148.59 39.37 90)

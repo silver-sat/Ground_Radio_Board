@@ -877,7 +877,7 @@
 				)
 			)
 		)
-		(property "Value" "TL1963A-15DCYR"
+		(property "Value" "TL1963A-33DCYR"
 			(at 137.16 83.82 0)
 			(effects
 				(font
@@ -914,7 +914,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TL1963A-15DCYR"
+		(property "MPN" "TL1963A-33DCYR"
 			(at 109.22 91.44 0)
 			(effects
 				(font
