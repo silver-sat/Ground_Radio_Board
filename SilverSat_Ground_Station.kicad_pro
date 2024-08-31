@@ -6,14 +6,14 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.1,
+        "board_outline_line_width": 0.09999999999999999,
         "copper_line_width": 0.127,
         "copper_text_italic": false,
         "copper_text_size_h": 1.524,
         "copper_text_size_v": 1.524,
         "copper_text_thickness": 0.127,
         "copper_text_upright": false,
-        "courtyard_line_width": 0.05,
+        "courtyard_line_width": 0.049999999999999996,
         "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
@@ -24,7 +24,7 @@
           "text_position": 0,
           "units_format": 1
         },
-        "fab_line_width": 0.1,
+        "fab_line_width": 0.09999999999999999,
         "fab_text_italic": false,
         "fab_text_size_h": 1.0,
         "fab_text_size_v": 1.0,
@@ -37,9 +37,9 @@
         "other_text_thickness": 0.127,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.254,
-          "height": 0.5,
-          "width": 0.5
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.8
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
@@ -59,7 +59,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "unconnected_items|103447000|91478003|3a1e7c1f-ad69-479a-9413-d0e9c18a68dc|522e7f07-dcda-4a9f-a183-3a13eb059168",
+        "unconnected_items|163920000|37259000|682e7993-0ea1-4323-a535-4fac3df82b33|ada6488f-e5e6-4781-b4c7-0c302563b784"
+      ],
       "meta": {
         "version": 2
       },
@@ -124,11 +127,11 @@
         "min_copper_edge_clearance": 0.381,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_microvia_diameter": 0.19999999999999998,
+        "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.127,

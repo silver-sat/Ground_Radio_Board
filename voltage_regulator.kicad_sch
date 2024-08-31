@@ -1041,7 +1041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 168.91 83.82 0)
 			(effects
 				(font

@@ -4335,17 +4335,6 @@
 		)
 		(uuid "1489d60f-98c9-4dde-bc1c-e357d13159f0")
 	)
-	(label "3V3"
-		(at 219.71 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "164ca37c-262e-4ac2-b9af-41faf141a27a")
-	)
 	(label "RX_LED_SWDIO"
 		(at 278.13 232.41 180)
 		(fields_autoplaced yes)
@@ -4767,6 +4756,18 @@
 			(justify right)
 		)
 		(uuid "9d1ee9a3-dadd-44f9-a047-601421d2f4f0")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 219.71 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7a99294-be3d-48fa-bb5b-463c6e0ac7b4")
 	)
 	(hierarchical_label "GPIO2"
 		(shape bidirectional)
