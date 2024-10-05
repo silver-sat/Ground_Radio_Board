@@ -79,8 +79,8 @@
   "project": {
     "files": [
       {
-        "name": "SilverSat_Ground_Station.kicad_sch",
-        "open": true,
+        "name": "SilverSat_Ground_Station.kicad_pcb",
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
@@ -91,7 +91,7 @@
         }
       },
       {
-        "name": "SilverSat_Ground_Station.kicad_pcb",
+        "name": "SilverSat_Ground_Station.kicad_sch",
         "open": true,
         "window": {
           "display": 0,

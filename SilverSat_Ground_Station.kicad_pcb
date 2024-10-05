@@ -20467,7 +20467,7 @@
 			(pintype "input+no_connect")
 			(uuid "469eff44-4037-46a1-a0d9-4518af0ef8e1")
 		)
-		(model "C:/Users/pc/Documents/GitHub/Ground_Radio_Board/Ground_Radio_Board/Ground Station Board/3D Models/ADA3708--3DModel-STEP-56544.stp"
+		(model "${KIPRJMOD}/3D Models/ADA3708--3DModel-STEP-56544.stp"
 			(offset
 				(xyz 10.2 -24.2 11.5)
 			)
