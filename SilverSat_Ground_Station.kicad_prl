@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 49,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -34,7 +34,7 @@
       2,
       3,
       4,
-      7,
+      5,
       8,
       9,
       10,
@@ -44,6 +44,8 @@
       14,
       15,
       16,
+      17,
+      18,
       19,
       20,
       21,
@@ -63,7 +65,7 @@
       36,
       40
     ],
-    "visible_layers": "fffffff_fffffffd",
+    "visible_layers": "ffdf0e0_fffffffd",
     "zone_display_mode": 1
   },
   "git": {
@@ -92,7 +94,7 @@
       },
       {
         "name": "SilverSat_Ground_Station.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
